@@ -4,3 +4,28 @@
   border: none;
   box-shadow: none; 
   }
+.column-left{
+  float: left;
+  width: 66%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+.column-l{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-c{
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+.column-r{
+  float: right;
+  width: 33%;
+  text-align: right;
+}
