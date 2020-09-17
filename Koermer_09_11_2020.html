@@ -489,11 +489,109 @@ Skiing, hiking, outdoors
 <h2>McCabe - Thiele</h2>
 <div class="column-left">
 <p><img src="Koermer_09_11_2020_files/figure-revealjs/eqdat-1.png" width="768" /></p>
-<p><span class="math inline">\({\scriptstyle\{\lbrack \mathrm{Y}\rbrack_{\mathrm{Aq}}, \lbrack \mathrm{Y}\rbrack_\mathrm{Org}\} = f(\mathrm{O:A}, \lbrack\mathrm{Y}\rbrack_\mathrm{Init}, \mathrm{pH}_{\mathrm{Eq}}) + \epsilon}\)</span></p>
+<p><span class="math inline">\({\scriptstyle\{\lbrack \mathrm{Y}\rbrack_{\mathrm{Aq}}, \lbrack \mathrm{Y}\rbrack_\mathrm{Org}, \mathrm{pH}_\mathrm{Eq}\} = f(\mathrm{O:A}, \lbrack\mathrm{Y}\rbrack_\mathrm{Init}, \mathrm{pH}_{\mathrm{Init}}, \dots) + \epsilon}\)</span></p>
+</div>
+</section><section class="slide level2">
+
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/circuit-1.png" width="768" /></p>
+</section></section>
+<section><section id="statistical-simulation" class="title-slide slide level1"><h1>Statistical Simulation</h1><p>Goal: Predict REE equilibrium data using observed data.</p></section><section id="shower-data" class="slide level2">
+<h2>Shower Data</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim1-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim1p5-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process-1" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim2-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process-2" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim3-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process-3" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim4-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process-4" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim5-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+</section><section id="gaussian-process-5" class="slide level2">
+<h2>Gaussian Process</h2>
+<div class="column-lss">
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/gpsim6-1.png" width="768" /> <small>Taken from <a href="https://bookdown.org/rbg/surrogates/">Surrogates</a>, Gramacy 2020</small></p>
+</div>
+<div class="column-r">
+<span class="math inline">\(f(x) \approx \hat{f}(x)\)</span> <br><br>
+<center>
+Why?
+</center>
 </div>
 </section></section>
-<section id="statistical-simulation" class="title-slide slide level1"><h1>Statistical Simulation</h1><p>Experimental Design</p>
-<p><img src="Koermer_09_11_2020_files/figure-revealjs/circuit-1.png" width="768" /></p></section>
+<section><section id="experimental-design" class="title-slide slide level1"><h1>Experimental Design</h1><p>Goal: Generate the best predictions, with the least amount of data.</p></section><section id="sequential-design" class="slide level2">
+<h2>Sequential Design</h2>
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/expd1-1.png" width="768" /></p>
+</section><section id="sequential-design-1" class="slide level2">
+<h2>Sequential Design</h2>
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/expd2-1.png" width="768" /></p>
+</section><section id="sequential-design-2" class="slide level2">
+<h2>Sequential Design</h2>
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/expd3-1.png" width="768" /></p>
+</section><section id="sequential-design-3" class="slide level2">
+<h2>Sequential Design</h2>
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/expd4-1.png" width="768" /></p>
+</section><section id="sequential-design---why" class="slide level2">
+<h2>Sequential Design - Why?</h2>
+<p><img src="Koermer_09_11_2020_files/figure-revealjs/expd5-1.png" width="768" /></p>
+</section></section>
+<section id="application" class="title-slide slide level1"><h1>Application</h1><ul>
+<li class="fragment">Experiments: Shake tests</li>
+</ul>
+<ul>
+<li class="fragment">Independent variables: O:A, initial aqueous elemental concentrations, initial pH</li>
+</ul>
+<ul>
+<li class="fragment">Observed variables: Aqueous and organic equilibrium concentrations, equilibrium pH</li>
+</ul>
+<ul>
+<li class="fragment">Initial design</li>
+</ul>
+<ul>
+<li class="fragment">Sequential batch design, refit model after each batch</li>
+</ul>
+<ul>
+<li class="fragment">Properties of normal distribution allow for calculation of expected equilibrium concentrations at a given equilibrium pH</li>
+</ul>
+<ul>
+<li class="fragment">Calibrate MetSim</li>
+</ul></section>
+<section id="progress" class="title-slide slide level1"><h1>Progress</h1><div class="column-lf">
+<p>Completed:</p>
+<ul>
+<li>Generation of stock REE and gangue solutions</li>
+<li>Initial design method</li>
+<li>Model structure</li>
+</ul>
+</div>
+<div class="column-rf">
+<p>To do:</p>
+<ul>
+<li>Determining boundaries experimental design. Ex: minimum and maximum <span class="math inline">\(\lbrack \mathrm{Y}\rbrack_{\mathrm{Init}}\)</span>, O:A, pH<span class="math inline">\(_\mathrm{Init}\)</span></li>
+<li>Initial design</li>
+<li>Matrix calculus</li>
+<li>Coding</li>
+<li>Optimization of simulation</li>
+</ul>
+</div></section>
     </div>
   </div>
 
@@ -505,6 +603,8 @@ Skiing, hiking, outdoors
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
         // Push each slide change to the browser history
         history: true,
         // Vertical centering of slides

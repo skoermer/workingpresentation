@@ -20,12 +20,27 @@
   text-align: left;
 }
 .column-c{
-  float: right;
+  display: inline-block;
   width: 33%;
-  text-align: right;
+  text-align: center;
 }
 .column-r{
   float: right;
-  width: 33%;
+  width: 34%;
   text-align: right;
+}
+.column-lss{
+ float: left;
+  width: 66%;
+  text-align: left; 
+}
+.column-lf{
+  float: left;
+  width: 50%;
+  text-align: left; 
+}
+.column-rf{
+  float: right;
+  width: 50%;
+  text-align: left; 
 }
